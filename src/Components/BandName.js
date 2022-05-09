@@ -1,8 +1,8 @@
 
 const BandName = ({name}) => {
   return (
-    <div>
-      <p>{name}</p>
+    <div className="BandName">
+      <h3 className="EEfont">{name}</h3>
     </div>
   )
 }

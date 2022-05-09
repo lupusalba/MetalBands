@@ -1,8 +1,8 @@
 
-const BandFans = () => {
+const BandFans = ({fans}) => {
   return (
     <div>
-      <p>BandFans</p>
+      <p>{fans}</p>
     </div>
   )
 }

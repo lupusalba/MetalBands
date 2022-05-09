@@ -1,10 +1,11 @@
 import Band from './Band'
 import data from '../data'
+import CasaAnimation from './CasaAnimation'
 
 const elems = data.map(d => {
   {console.log(d)}
   return (
-    <Band
+    <CasaAnimation
       key={d[0]}
       item={d}
     />

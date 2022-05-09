@@ -3,7 +3,7 @@ import BandData from './BandData'
 
 const Band = ({item}) => {
   return (
-    <div className="Band">
+    <div className="Band grid">
       <BandHero />
       <BandData item={item} />
     </div>
